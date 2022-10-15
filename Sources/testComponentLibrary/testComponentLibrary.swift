@@ -4,3 +4,7 @@ public struct testComponentLibrary {
     public init() {
     }
 }
+
+public func myTestSPMFunction() {
+    print("SPM Test Function Succeeded!")
+}
