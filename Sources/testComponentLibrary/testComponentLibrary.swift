@@ -6,5 +6,5 @@ public struct testComponentLibrary {
 }
 
 public func myTestSPMFunction() {
-    print("SPM Test Function Succeeded!")
+    print("SPM Test Function Succeeded!. this is cool")
 }
