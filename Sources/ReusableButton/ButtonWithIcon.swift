@@ -9,7 +9,7 @@ import SwiftUI
 import Utility
 
 
-@available(iOS 13, macOS 11.0, *)
+@available(iOS 14, macOS 11.0, *)
 public struct ButtonWithIcon: View {
     
     let title: String
@@ -28,7 +28,7 @@ public struct ButtonWithIcon: View {
         Button {
             print("Someting i dont care")
         } label: {
-                if #available(iOS 13.0, *) {
+                if #available(iOS 14.0, *) {
                     if #available(macOS 11.0, *) {
                         Image(systemName: iconType.name)
                     } else {
@@ -44,7 +44,7 @@ public struct ButtonWithIcon: View {
     }
 }
 
-@available(iOS 13, macOS 11.0, *)
+@available(iOS 14, macOS 11.0, *)
 struct ButtonWithIcon_Previews: PreviewProvider {
     static var previews: some View {
         ButtonWithIcon(title: "Hola", iconType: .person, buttonType: .primary) {
