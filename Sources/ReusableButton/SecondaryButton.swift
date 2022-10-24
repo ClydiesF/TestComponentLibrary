@@ -8,7 +8,7 @@
 import SwiftUI
 import Utility
 
-@available(iOS 14, macOS 10.15, *)
+@available(iOS 13, macOS 10.15, *)
 public struct SecondaryButton: View {
     let title: String
     let buttonType: ButtonType
