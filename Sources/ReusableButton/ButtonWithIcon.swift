@@ -28,7 +28,7 @@ public struct ButtonWithIcon: View {
         Button {
             print("Someting i dont care")
         } label: {
-                if #available(iOS 13, macOS 11.0, *) {
+                if #available(macOS 11.0, *) {
                     Image(systemName: iconType.name)
                 } else {
                     Text("NA")
